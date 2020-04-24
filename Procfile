@@ -1,1 +1,1 @@
-web: npm ./main.ts $PORT
+web: npm start $PORT
