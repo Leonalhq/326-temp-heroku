@@ -1,4 +1,4 @@
-const url = "http://localhost:8080/word"; // NOTE NEW URL
+const url = "https://cs326-project.herokuapp.com//word"; // NOTE NEW URL
 
 import { postData } from './postdata';
 
