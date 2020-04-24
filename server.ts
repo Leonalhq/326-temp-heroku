@@ -19,7 +19,7 @@ export class Server{
             next();
         });
         
-        this.server.use('/', express.static('./html'));
+        this.server.use('/', express.static('./html/'));
         this.server.use(express.json());
 
         this.router.post('/new', this.createHandler.bind(this));
