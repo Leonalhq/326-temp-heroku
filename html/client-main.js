@@ -69,11 +69,11 @@ function wordRead() {
                 var languagelist = j['lang'];
                 let langl = "<ul>";
                 languagelist.forEach((num1) => {
-                    langl += '<li>' + num1 + "</li>";
+                    langl += '<ui>' + num1 + "</ui>";
                 });
                 langl += "<ul>";
                 outputImgElement.innerHTML = "<img id=wordimg src= " + j['img'] + ">";
-                outputElement.innerHTML = "typescript 201: <b>" + wordName + ": </b>" + langl;
+                outputElement.innerHTML = "201: <b>" + wordName + ": </b>" + langl;
             }
             else {
                 outputElement.innerHTML = "200: " + wordName + " not found.</b>";
