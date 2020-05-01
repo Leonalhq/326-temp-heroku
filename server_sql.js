@@ -44,7 +44,7 @@ var Server = /** @class */ (function () {
     function Server(db) {
         var _this = this;
         this.server = express();
-        this.port = 8080;
+        this.port = process.env.PORT || 8080;
         this.router = express.Router();
         this.dataBase = db;
         this.router.use(function (request, response, next) {
